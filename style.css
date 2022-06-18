@@ -1,0 +1,146 @@
+* {
+  padding: 9px;
+  margin-top: 2px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 15px;
+}
+body{
+  width: 100%;
+   
+}
+header{
+  margin: 5px 0 20px 0;
+}
+nav{
+  margin-top: -40px;
+  margin-bottom: -30px;
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+    
+}
+li{list-style: none;
+  margin-top: -20px;
+    
+}
+.navbtn{
+  border: 2px black solid;
+  width: 15rem;
+  height: 70px;
+  position: relative;
+  left: 41%;
+  background: linear-gradient(90deg, hsl(31, 77%, 52%)0%, hsl(184, 100%, 22%)45%, hsl(179, 100%, 13%)100%);
+}
+a{
+  text-decoration: none;
+  font-size: 45px;
+  font-weight: 400;
+  color:antiquewhite;
+  padding: 5px 12px 18px;
+}
+
+.flex-container{
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 100%;
+}
+h2{
+  Font-Family: 'Big Shoulders Display';
+  font-size: 3rem;
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+}
+p{font-family: 'Lexend Deca';
+  color: hsla(0, 0%, 100%, 0.75);
+  margin:-25px 0 4rem 0;
+  font-Weight: 400;
+}
+
+.sedan{
+  background-color: hsl(31, 77%, 52%);
+  width:22%;
+  height:482px;
+}
+
+.suv{background-color:  hsl(184, 100%, 22%);
+  width:22%;
+  height:482px;
+}
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  width: 22%;
+  height:482px;
+}
+.sedan,.suv,.luxury{
+  padding: 40px 0 0 40px;
+}
+.sed{
+  background-color: white;
+  border: none;
+  border-radius: 3rem;
+  padding: 10px 19px;
+  cursor: pointer;
+  margin-left: 32px;
+  
+  color: hsl(31, 77%, 52%); 
+}
+.su{
+  background-color: white;
+  border: none;
+  border-radius: 3rem;
+  padding: 10px 19px;
+  cursor: pointer;
+  margin-left: 32px;
+  
+  color:  hsl(184, 100%, 22%);
+}
+.lux{
+  background-color: white;
+  border: none;
+  border-radius: 3rem;
+  padding: 10px 19px;
+  cursor: pointer;
+  margin-left: 32px;
+  margin-top: 20px;
+  color: hsl(179, 100%, 13%);
+}
+input:hover{
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border: solid 2px white;
+}
+
+    @media (max-width:900px){
+  .flex-container {
+    margin-left: -20px;
+    width:600px;;
+    height: 500px;;
+  }
+  .sedan{
+    width: 100%;
+  }
+  .suv{
+    width: 100%;
+  }
+  .luxury{
+    width: 100%;
+  }
+}
+@media (max-width:375px){
+  .sedan{
+    width: 100%;
+  }
+  .suv{
+    width: 100%;
+  }
+  .luxury{
+    width: 100%;
+  }
+}
+
